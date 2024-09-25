@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    padding: 100px;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    gap: 10px;
+}
+
+form input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button:hover{
+    background-color: #1b811b;
+}
+
+form button {
+padding: 10px 20px;
+border: none;
+background-color: #4caf50;
+color: white;
+text-transform: uppercase;
+border-radius: 4px;
+cursor: pointer;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    }
+
+th{
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ddd;
+}
+
+th, td, tr{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+unicode-bidi: isolate;
+border-color: inherit;
+}
+
+button.delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #c0392b;
+}
